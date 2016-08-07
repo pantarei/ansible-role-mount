@@ -1,5 +1,7 @@
 ---
+# test file for hswong3i.mount
+
 - hosts: localhost
   remote_user: root
   roles:
-    - hswong3i.mount
+    - ansible-role-mount

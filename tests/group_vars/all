@@ -1,0 +1,5 @@
+---
+
+mount: [
+  { state: "mounted", src: "/home", name: "/srv/home", fstype: "none", opts: "bind", owner: "root", group: "root", mode: "0777" },
+]
