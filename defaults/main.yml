@@ -2,5 +2,5 @@
 # defaults file for hswong3i.mount
 
 mount: [
-#  { state: "mounted", src: "tmpfs", name: "/tmp", fstype: "tmpfs", opts: "defaults,noexec,nosuid,nodev" },
+#  { state: "mounted", src: "tmpfs", name: "/tmp", fstype: "tmpfs", opts: "defaults,noexec,nosuid,nodev", dump: "0", passno: "0" },
 ]

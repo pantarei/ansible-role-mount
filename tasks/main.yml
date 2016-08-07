@@ -7,6 +7,8 @@
     name: "{{ item.name }}"
     fstype: "{{ item.fstype }}"
     opts: "{{ item.opts }}"
+    dump: "{{ item.dump }}"
+    passno: "{{ item.passno }}"
     state: "{{ item.state }}"
   with_items: "{{ mount }}"
   tags: hswong3i.mount
