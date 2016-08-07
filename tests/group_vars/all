@@ -1,5 +1,5 @@
 ---
 
 mount: [
-  { state: "mounted", src: "/home", name: "/srv/home", fstype: "none", opts: "bind", owner: "root", group: "root", mode: "0777" },
+  { state: "mounted", src: "tmpfs", name: "/tmp", fstype: "tmpfs", opts: "defaults,noexec,nosuid,nodev" },
 ]
