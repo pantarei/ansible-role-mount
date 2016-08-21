@@ -3,6 +3,6 @@
 
 mount: [
 #  { state: "mounted", src: "tmpfs", name: "/tmp", fstype: "tmpfs", opts: "defaults,noexec,nosuid,nodev", dump: "0", passno: "0" },
-#  { state: "mounted", src: "ganesha:/srv/export/home", name: "/home", fstype: "nfs", opts: "defaults,_netdev,hard,intr,fsc", dump: "0", passno: "0" },
-#  { state: "mounted", src: "ganesha:/srv/export/home", name: "/home", fstype: "nfs4", opts: "defaults,_netdev,hard,intr,fsc", dump: "0", passno: "0" },
+#  { state: "mounted", src: "nfs-kernel-server:/srv/export/home", name: "/home", fstype: "nfs", opts: "defaults,_netdev,hard,intr,fsc", dump: "0", passno: "0" },
+#  { state: "mounted", src: "nfs-ganesha:/srv/export/home", name: "/home", fstype: "nfs4", opts: "defaults,_netdev,hard,intr,fsc,proto=tcp,timeo=1", dump: "0", passno: "0" },
 ]
