@@ -1,0 +1,10 @@
+---
+# vars file for hswong3i.mount (xenial)
+
+_apt_repository: [
+  { state: "present", repo: "ppa:gluster/glusterfs-3.7" },
+]
+_apt: [
+  { state: "latest", name: "glusterfs-client" },
+  { state: "latest", name: "nfs-common" },
+]
