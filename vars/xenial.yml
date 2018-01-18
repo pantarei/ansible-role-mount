@@ -10,7 +10,8 @@ _apt_repository: [
   { state: "absent", repo: "ppa:gluster/glusterfs-3.9" },
   { state: "absent", repo: "ppa:gluster/glusterfs-3.10" },
   { state: "absent", repo: "ppa:gluster/glusterfs-3.11" },
-  { state: "present", repo: "ppa:gluster/glusterfs-3.12" },
+  { state: "absent", repo: "ppa:gluster/glusterfs-3.12" },
+  { state: "present", repo: "ppa:gluster/glusterfs-3.13" },
 ]
 _apt: [
   { state: "latest", name: "glusterfs-client" },
